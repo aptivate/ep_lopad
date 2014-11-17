@@ -21,7 +21,7 @@ exports.expressCreateServer = function (hook_name, args, cb) {
 exports.eejsBlock_indexWrapper = function(hook_name, args, cb) {
     var logo = '<div id="title" class="center">&gt;(lopad.org)-</div>',
         initial = args.content,
-        terms = '<div id="terms" class="center">By using this site, you accept our <a href="/privacy.html">privacy policy</a> and agree to our <a href="/tos.html">terms and conditions</a></div>';
+        terms = '<div class="center about"><strong>lopad.org</strong> is a freely available <a href="http://etherpad.org/">etherpad</a> instance hosted by <a class="aptivate" href="http://www.aptivate.org">Aptivate</a> as part of our work to support IT in international development and promote greater participation globally.</div><div id="terms" class="center">By using this site, you accept our <a href="/privacy.html">privacy policy</a> and agree to our <a href="/tos.html">terms and conditions.</a></div>';
     args.content = logo + initial + terms;
     return cb();
 };

@@ -1,27 +1,31 @@
-#container {
+.container {
     width: 920px;
     margin: 0 auto;
+}
+body {
+    background: #f7f7f7;
 }
 h1 {
     background-color: #3462A9;
     color: white;
     font-family: Arial,Helvetica,Calibri,sans-serif;
-    font-size: xx-large;
     margin-bottom: 1em;
     text-align: center;
 }
+.inner {
+    margin: 0 1.5em 1.5em;
+}
+
 dl, ol {
-    padding-left: 2em;
+    padding-left: 0;
 }
 
 dt {
     font-weight: bold;
-    font-size: 120%;
     padding-top: 1em;
 }
 
 ol li {
-    font-size: 120%;
     margin-bottom: .5em;
     list-style: none;
 }

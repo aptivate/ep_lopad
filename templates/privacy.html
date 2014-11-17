@@ -3,55 +3,40 @@
     <head>
         <title>Privacy</title>
         <link href="static/plugins/ep_lopad/static/css/lopad.css" rel="stylesheet"> 
-        <style>
-            #container {
-                width: 920px;
-                margin: 0 auto;
-            }
-            h1 {
-                background-color: #3462A9;
-                color: white;
-                font-family: Arial,Helvetica,Calibri,sans-serif;
-                font-size: xx-large;
-                margin-bottom: 1em;
-                text-align: center;
-            }
-            ol li {
-                font-size: 150%;
-                margin-bottom: .5em;
-                list-style: none;
-            }
-        </style>
     </head>
     <body>
-        <div id="container">
+        <div class="container">
             <h1>Privacy Policy</h1>
-            <ol>
-                <li>Lopad pads won't be republished elsewhere but can be viewed by anyone with access to the URL.</li>
-                <li>Details of your access to the server will be logged for the purpose of maintaining the service.</li>
-                <li>We won't look at the content of pads unless absolutely necessary for the continuing safe operation of our service.</li>
-                <li>We will release logs to authorised officials if we are legally obliged to do so.</li>
-                <li>Logs will not be released under any other circumstances.</li>
-                <li>This privacy policy is subject to change without notice. The current version can be found at <a href="/privacy.html">http://www.lopad.org/privacy.html</a>.</li>
-            </ol>
+                <div class="inner">
+                    <ol>
+                        <li>Lopad pads won't be republished elsewhere but can be viewed by anyone with access to the URL.</li>
+                        <li>Details of your access to the server will be logged for the purpose of maintaining the service.</li>
+                        <li>We won't look at the content of pads unless absolutely necessary for the continuing safe operation of our service.</li>
+                        <li>We will release logs to authorised officials if we are legally obliged to do so.</li>
+                        <li>Logs will not be released under any other circumstances.</li>
+                        <li>This privacy policy is subject to change without notice. The current version can be found at <a href="/privacy.html">http://www.lopad.org/privacy.html</a>.</li>
+                    </ol>
+                </div>
             <h1>Cookies</h1>
-            <p>Lopad must set a number of cookies in order to function. You must accept these cookies in order to use Lopad. Each cookie is described below.</p>
-            <dl>
-                <dt>express_sid</dt>
-                <dd>Session cookie</dd>
-                <dd>Expires at end of session</dd>
-                <dd>Uniquely identifies each user collaborating on a pad</dd>
+                <div class="inner">
+                <p>Lopad must set a number of cookies in order to function. You must accept these cookies in order to use Lopad. Each cookie is described below.</p>
+                <dl>
+                    <dt>express_sid</dt>
+                    <dd>Session cookie</dd>
+                    <dd>Expires at end of session</dd>
+                    <dd>Uniquely identifies each user collaborating on a pad</dd>
 
-                <dt>prefs</dt>
-                <dd>Session cookie</dd>
-                <dd>Expires never</dd>
-                <dd>Stores pad editor settings</dd>
+                    <dt>prefs</dt>
+                    <dd>Session cookie</dd>
+                    <dd>Expires never</dd>
+                    <dd>Stores pad editor settings</dd>
 
-                <dt>token</dt>
-                <dd>Random string</dd>
-                <dd>Identifies the user as a pad author</dd>
-                <dd>Expires after 60 days</dd>
-            </dl>
+                    <dt>token</dt>
+                    <dd>Random string</dd>
+                    <dd>Identifies the user as a pad author</dd>
+                    <dd>Expires after 60 days</dd>
+                </dl>
+            </div>
         </div>
     </body>
 </html>
