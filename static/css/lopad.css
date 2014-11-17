@@ -1,0 +1,27 @@
+#container {
+    width: 920px;
+    margin: 0 auto;
+}
+h1 {
+    background-color: #3462A9;
+    color: white;
+    font-family: Arial,Helvetica,Calibri,sans-serif;
+    font-size: xx-large;
+    margin-bottom: 1em;
+    text-align: center;
+}
+dl, ol {
+    padding-left: 2em;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 120%;
+    padding-top: 1em;
+}
+
+ol li {
+    font-size: 120%;
+    margin-bottom: .5em;
+    list-style: none;
+}

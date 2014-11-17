@@ -1,0 +1,11 @@
+{
+  "parts": [
+    {
+      "name": "lopad",
+      "hooks": {
+        "eejsBlock_indexWrapper": "ep_lopad/hooks",
+        "expressCreateServer": "ep_lopad/hooks"
+      }
+    }
+  ]
+}
