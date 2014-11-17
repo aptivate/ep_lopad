@@ -5,16 +5,6 @@ var hooks = require('ep_etherpad-lite/static/js/pluginfw/hooks');
 
 
 exports.expressCreateServer = function (hook_name, args, cb) {
-  // serve custom.css
-  console.log("hook_name: ", hook_name);
-  console.log("args: ", args);
-  console.log("cb: ", cb);
-  args.app.get( /static\/custom\/index.css$/, function(req, res)
-  {
-    var filePath = path.normalize(__dirname + "/static/index.css");
-    res.sendfile(filePath);
-  });
-
   args.app.get('/tos.html', function(req, res)
   {
     var filePath = path.normalize(__dirname + "/templates/tos.html");
